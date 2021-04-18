@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Capriola');
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body, html {
+	height: 100%;
+	background: #fff;
+	color: #2C3038;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+}
+span.underline {
+	border: 2px solid #DC3522;
+	border-radius: 50%;
+	display: inline-block;
+	height: 16px;
+	position: relative;
+	width: 16px;
+	z-index: 1;
+	margin-bottom: 0px;
+}
+span.right-underline:before {
+	background: #F4BFB9;
+	content: "";
+	height: 1px;
+	position: absolute;
+	top: 5px;
+	width: 100px;
+	z-index: -1;
+}
+
+span.underline::before {
+	left: 14px;
+}
+span.underline::after {
+	right: 14px;
+}
+[class^="flaticon-"]::before, [class*=" flaticon-"]::before, [class^="flaticon-"]::after, [class*=" flaticon-"]::after {
+	margin: 0;
+}
+.title-white span.underline {
+	border: 2px solid #fff;
+	border-radius: 50%;
+}
+p {
+	font-size: 20px;
+	line-height: 35px;
+}
+a:hover, a:focus {
+	text-decoration: none;
+	outline: 0;
+	border: 0;
+}
+h1, h2 {
+	color: #000;
+	font-weight:300;
+}
+.title {
+	padding-bottom: 30px;
+	color: #fff;
+}
+.tlinks{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+.title p {
+	color: #361507;
+	margin: 0;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+.title p .fa {
+	font-size: 14px;
+}
+.title h2 {
+	font-size: 45px;
+	font-family: 'Francois One', sans-serif;
+	color: #DC3522;
+	line-height: 55px;
+	text-transform: uppercase !important;
+	margin-top: 0px;
+}
+h1.title span {
+	display: block;
+	width: 100%;
+	color: #555;
+	letter-spacing: 1px;
+	font-size: 18px;
+	font-weight: 400;
+}
+.title-white h2, .title-white p {
+	color: #fff;
+}
+.readmore {
+	animation-delay: 2s;
+	background: #dc3522;
+	border: 1px solid #dc3522;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	line-height: 10px;
+	margin-top: 25px;
+	padding: 17px 26px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: background 0.3s ease-in-out 0s, color 0.3s ease-in-out 0s;
+	white-space: nowrap;
+}
+.readmore:hover, .readmore:active {
+	color: #dc3522;
+	background: none;
+	border: 1px solid #dc3522;
+}
+.submit {
+	animation-delay: 2s;
+	background: #FF7701;
+	border: 1px solid #FF7701;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	line-height: 10px;
+	margin-top: 25px;
+	padding: 17px 46px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: background 0.3s ease-in-out 0s, color 0.3s ease-in-out 0s;
+	white-space: nowrap;
+}
+.submit:hover {
+	color: #FF7701;
+	background: none;
+	border: 1px solid #FF7701;
+}
+.introduction {
+	padding: 100px 0;
+	text-align: left;
+}
+.introduction h2 {
+	color: #DC3522;
+	font-size: 45px;
+	line-height: 55px;
+	text-transform: none;
+}
+.intro-img {
+	overflow: hidden;
+	margin-top: 30px;
+}
+.intro-img img {
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+.intro-img img:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
